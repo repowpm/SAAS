@@ -1,0 +1,28 @@
+.subscripcion {
+    background-color: $color-green;
+    width: 920px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+
+    &>div {
+        width: 69%;
+        display: inline-block;
+
+        &>h2 {
+            padding: 40px;
+            text-align: left;
+        }
+    }
+
+    &>button {
+        width: 30%;
+        height: 60px;
+        background-color: $color-grey;
+        font-weight: $fw-bolder;
+        font-size: $fs-30px;
+    }
+
+
+
+}

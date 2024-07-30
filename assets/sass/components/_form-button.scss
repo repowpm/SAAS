@@ -1,0 +1,12 @@
+.form-button{
+    border: 0 solid;
+    border-radius: 20px;
+    width: 80%;
+    display: block;
+    margin: 0 auto 20px auto;
+    color: $color-white; 
+    background-color: $color-green; 
+    font-size: $fs-30px;
+    height: 80px;
+    cursor: pointer;
+}

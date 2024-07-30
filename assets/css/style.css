@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.fw-bold {
+  font-weight: 900;
+}
+
+.fw-bolder {
+  font-weight: 700;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.title-center-40 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.title-center-30 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-center-25 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.title-center-20 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.title-center-15 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.ff-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body > hr {
+  color: #eee;
+}
+
+.header {
+  height: 100px;
+  width: 100vw;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.form-container {
+  max-width: 900px;
+  width: 99vw;
+  margin: 20px auto;
+  padding: 20px;
+  border: solid 1px #333;
+}
+.form-container > a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.footer {
+  position: relative;
+  margin-top: 20px;
+  width: 100vw;
+  height: 100px;
+}
+
+.card-zone {
+  max-width: 900px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 80%;
+  margin: 0px auto 20px auto;
+  display: block;
+  height: 60px;
+}
+
+.input::placeholder {
+  font-size: 30px;
+}
+
+.form-button {
+  border: 0 solid;
+  border-radius: 20px;
+  width: 80%;
+  display: block;
+  margin: 0 auto 20px auto;
+  color: #fff;
+  background-color: #63af2b;
+  font-size: 30px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.form-button-google {
+  background-color: #fff;
+  color: inherit;
+  border: solid 1px #333;
+  position: relative;
+  font-weight: 900;
+}
+.form-button-google > img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+.subscripcion {
+  background-color: #63af2b;
+  width: 920px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.subscripcion > div {
+  width: 69%;
+  display: inline-block;
+}
+.subscripcion > div > h2 {
+  padding: 40px;
+  text-align: left;
+}
+.subscripcion > button {
+  width: 30%;
+  height: 60px;
+  background-color: #eee;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.brand {
+  width: 400px;
+  position: relative;
+}
+.brand > img {
+  object-fit: cover;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  top: 10px;
+  left: 20px;
+}
+.brand > p {
+  position: absolute;
+  font-size: 40px;
+  color: #000;
+  font-weight: 700;
+  right: 0;
+  top: 50%;
+}
+.brand ~ h4 {
+  position: absolute;
+  right: 0;
+  padding-right: 200px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.card-main {
+  max-width: 900px;
+  width: 99vw;
+  margin: 50px 0;
+}
+.card-main > h2 {
+  color: #000;
+  text-align: left;
+  margin: 0;
+  font-size: 30px;
+}
+.card-main > .card-info {
+  margin: 0 auto;
+  max-width: 900px;
+  position: relative;
+}
+.card-main > .card-info > img {
+  position: absolute;
+  top: 15px;
+  height: 60px;
+  border-radius: 50%;
+}
+.card-main > .card-info > h2 {
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 70px;
+}
+.card-main > .card-info > h3 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.card-main > .card-body {
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #eee;
+}
+.card-main > .card-body > p {
+  text-align: center;
+  margin: 20px auto;
+}
+.card-main > .card-body > img {
+  margin: 10px auto;
+  display: block;
+  max-width: 860px;
+  width: 100vw;
+}
+
+.card-secondary {
+  width: 297px;
+  height: 400px;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+.card-secondary > img {
+  width: 297px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.card-secondary > h4 {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.card-secondary > h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+.card-secondary > .brandzone {
+  position: relative;
+}
+.card-secondary > .brandzone > img {
+  position: absolute;
+  border-radius: 50%;
+  height: 50px;
+  border-radius: 20px;
+}
+.card-secondary > .brandzone > h2 {
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */

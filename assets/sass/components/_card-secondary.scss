@@ -1,0 +1,27 @@
+.card-secondary{
+    width: 297px;
+    height: 400px;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+
+    &>img{width: 297px; height: 200px; object-fit: cover; object-position: center;}
+    &>h4{font-weight: $fw-light;font-size: $fs-20px; padding: 0; margin: 0;}
+    &>h2{font-weight: $fw-bolder; font-size: $fs-25px; padding: 0; margin: 0;}
+    &>.brandzone{
+        position: relative;
+        &>img{
+            position: absolute;
+            border-radius: 50%;
+            height: 50px;
+            border-radius: 20px;
+        }
+        &>h2{
+            font-size: $fs-20px;
+            position: absolute;
+            left: 70px;
+        }
+
+    }
+    
+}

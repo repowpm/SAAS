@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fw-bold{    font-weight: $fw-bold; }
+.fw-bolder{    font-weight: $fw-bolder; }
+.fw-normal{    font-weight: $fw-normal; }
+.fw-light{    font-weight: $fw-light; }
+
+
+.title-center-40{    font-size: $fs-40px; text-align: center; }
+.title-center-30{    font-size: $fs-30px; text-align: center; }
+.title-center-25{    font-size: $fs-25px; text-align: center; }
+.title-center-20{    font-size: $fs-20px; text-align: center; }
+.title-center-15{    font-size: $fs-15px; text-align: center; }
+
+.text-white{
+    color:$color-white;
+}
+
+.text-black{
+    color:$color-black;
+}
+
+.ff-poppins{
+    font-family: "Poppins", sans-serif;
+}

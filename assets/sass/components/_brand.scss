@@ -1,0 +1,31 @@
+.brand{
+
+    width: 400px;
+    position: relative;
+    &>img{
+        object-fit: cover;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        top: 10px;
+        left: 20px;
+    }
+
+    &>p{
+        position: absolute;
+        font-size: $fs-40px;
+        color: $color-black;
+        font-weight: $fw-bolder;
+        right: 0;
+        top: 50%;
+    }
+
+    &~h4 {
+        position: absolute;
+        right: 0;
+        padding-right: 200px;
+        font-size: $fs-30px;
+        font-weight: $fw-normal;
+    }
+}

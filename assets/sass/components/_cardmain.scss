@@ -1,0 +1,54 @@
+.card-main {
+    max-width: 900px;
+    width: 99vw;
+    margin: 50px 0;
+
+    &>h2{
+        color: $color-black;
+        text-align: left;
+        margin: 0;
+        font-size: $fs-30px;
+    }
+
+
+    &>.card-info{
+        margin: 0 auto;
+        max-width: 900px;
+        position: relative;
+        &>img{
+            position: absolute;
+            top: 15px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        &>h2{
+            display: inline-block;
+            font-size: $fs-30px;
+            margin-left: 70px;
+        }
+        &>h3{
+            display: inline-block;
+            font-size: $fs-20px;
+            font-weight: $fw-normal;
+            margin-left: 30px;
+        }
+    }
+    
+    &>.card-body {
+        margin: 0 auto 20px auto;
+        padding: 20px;
+        max-width: 900px;
+        background-color: $color-grey;
+        &>p {
+            text-align: center;
+            margin: 20px auto;
+        }
+        
+        &>img {
+            margin: 10px auto;
+            display: block;
+            max-width: 860px;
+            width: 100vw;
+        }
+    }
+}
